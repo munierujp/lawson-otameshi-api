@@ -1,3 +1,6 @@
 {
-  "name": "lawson-otameshi-api"
+  "name": "lawson-otameshi-api",
+  "devDependencies": {
+    "@google/clasp": "^2.2.1"
+  }
 }
