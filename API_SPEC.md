@@ -1,7 +1,7 @@
 # API仕様
 ## 商品
 <table>
-<tr><th>パラメーター</th><th>型</th><th>フォーマット</th></tr>
+<tr><th>プロパティ</th><th>型</th><th>フォーマット</th></tr>
 <tr><td>title</td><td>string</td><td></td></tr>
 <tr><td>image</td><td>string</td><td>URL</td></tr>
 <tr><td>start_date</td><td>string</td><td>ISO 8601</td></tr>
