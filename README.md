@@ -10,3 +10,6 @@
 |ライブラリ|プロジェクトキー|
 |---|---|
 |[Moment](https://momentjs.com/)|`MHMchiX6c1bwSqGM1PZiW_PxhMjh3Sh48`|
+
+## API仕様
+[API_SPEC.md](API_SPEC.md)を参照してください。
