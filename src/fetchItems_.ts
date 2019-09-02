@@ -7,11 +7,12 @@ function fetchItems_ (): Item[] {
   const itemList = html.match(/<ul class="col-2 heightLineParent">([\s\S]*?)<\/ul>/)[1]
   const items = itemList.match(/<li>[\s\S]*?<\/li>/g)
   return items.map(item => {
-    const title = item.match(/<p class="ttl">(.*?)<\/p>/)[1]
-    const image = 'http://www.lawson.co.jp' + item.match(/<img src="(.*?)"/)[1]
-    const startDate = parseDate_(item.match(/<dt>発券開始日<\/dt><dd>(.*?)～?<\/dd>/)[1], 'YYYY.MM.DD HH:mm')
-    const point = Number(item.match(/<dt>ポイント<\/dt><dd>(.*?)P?<\/dd>/)[1])
-    const detail = item.match(/<dt>詳細<\/dt><dd>(.*?)<\/dd>/)[1]
+    const extract = pattern => item.match(pattern)[1].trim()
+    const title = extract(/<p class="ttl">([\s\S]*?)<\/p>/)
+    const image = 'http://www.lawson.co.jp' + extract(/<img src="([\s\S]*?)"/)
+    const startDate = parseDate_(extract(/<dt>発券開始日<\/dt><dd>([\s\S]*?)～?<\/dd>/), 'YYYY.MM.DD HH:mm')
+    const point = Number(extract(/<dt>ポイント<\/dt><dd>([\s\S]*?)P?<\/dd>/))
+    const detail = extract(/<dt>詳細<\/dt><dd>([\s\S]*?)<\/dd>/)
     return {
       title,
       image,
