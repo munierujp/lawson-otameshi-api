@@ -10,8 +10,5 @@
   },
   "env": {
     "googleappsscript/googleappsscript": true
-  },
-  "globals": {
-    "Moment": "readonly"
   }
 }
