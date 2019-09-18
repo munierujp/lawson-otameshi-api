@@ -1,3 +1,7 @@
-const moment: Function = Moment.moment
+import { moment } from './types/Moment'
 
-export default moment
+declare const Moment: {
+  moment: moment
+}
+
+export default Moment
