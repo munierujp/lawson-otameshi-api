@@ -1,6 +1,5 @@
 import parseDate_ from './parseDate_'
 
-// NOTE: Below function will be private in Google Apps Script.
 function fetchItems_ (): Item[] {
   const resp = UrlFetchApp.fetch('http://www.lawson.co.jp/ponta/tsukau/otameshi/index.html')
   const html = resp.getContentText()
@@ -23,5 +22,4 @@ function fetchItems_ (): Item[] {
   })
 }
 
-// NOTE: Below statement will be removed by clasp.
 export default fetchItems_

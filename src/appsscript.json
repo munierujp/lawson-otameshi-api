@@ -2,6 +2,14 @@
   "timeZone": "America/New_York",
   "dependencies": {
     "libraries": [{
+      "userSymbol": "AssertGAS",
+      "libraryId": "1Ci_-jGA_7V8FlBYrwm-iszV4ycrFhro5fQiVsjKtMA_4bNYlcZ1QIWh1",
+      "version": "8"
+    }, {
+      "userSymbol": "GASUnit",
+      "libraryId": "1Bnt8-tN4ddGVzXXIkzV_AtuuMzdlmlSyKWO7KS4TAVQYgM2GJT5WC9eU",
+      "version": "11"
+    }, {
       "userSymbol": "Moment",
       "libraryId": "15hgNOjKHUG4UtyZl9clqBbl23sDvWMS8pfDJOyIapZk5RBqwL3i-rlCo",
       "version": "9"
