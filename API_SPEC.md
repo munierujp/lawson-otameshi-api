@@ -39,11 +39,11 @@ console.log(items)
 ```json
 [
   {
-  "title": "カルビー　ポテリッチ　濃厚バター醤油味(80g)/オリーブ＆ガーリック味(70g)",
-  "image": "http://www.lawson.co.jp/ponta/calender/files/ota_190801_146.png",
-  "start_date": "2019-08-31T11:00:00.000Z",
-  "point": 50,
-  "detail": "先着合計17,000個"
+    "title": "カルビー　ポテリッチ　濃厚バター醤油味(80g)/オリーブ＆ガーリック味(70g)",
+    "image": "http://www.lawson.co.jp/ponta/calender/files/ota_190801_146.png",
+    "start_date": "2019-08-31T11:00:00.000Z",
+    "point": 50,
+    "detail": "先着合計17,000個"
   }
 ]
 ```
