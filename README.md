@@ -1,4 +1,5 @@
 [![clasp](https://img.shields.io/badge/built%20with-clasp-4285f4.svg)](https://github.com/google/clasp)
+[![tested by GASUnit](https://img.shields.io/badge/tested%20by-GASUnit-%234285F1)](https://github.com/gasunit/GASUnit)
 [![JavaScript Style Guide](https://img.shields.io/badge/code_style-standard-brightgreen.svg)](https://standardjs.com)
 
 # lawson-otameshi-api
