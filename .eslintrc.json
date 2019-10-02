@@ -4,7 +4,7 @@
     "googleappsscript"
   ],
   "parserOptions": {
-    "project": "./tsconfig.json"
+    "project": "./tsconfig.eslint.json"
   },
   "env": {
     "googleappsscript/googleappsscript": true
